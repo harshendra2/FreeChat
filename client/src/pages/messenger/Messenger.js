@@ -95,7 +95,7 @@ function Messenger(){
       receiverId,
       text:newMessage
     })
-
+ 
     try{
 
       const res= await axios.post("/messages",message)
