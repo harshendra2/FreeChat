@@ -16,7 +16,7 @@ const removeUser = (socketId)=>{
 }
 
 const getUser = (userId)=>{
-    return users.find(user=>user.userId===userId)
+    return users.find(user=>user.userId===userId);
 }
 
 
